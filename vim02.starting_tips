@@ -1,0 +1,96 @@
+
+============================================================================
+ Chapter 02:
+ Starting Tips
+============================================================================
+
+ [+] Modes 
+  |
+  |[+] NORMAL
+  | |
+  | |[+] it's best mode to browse through entire content of the file
+  | |
+  | |[+] press [_ESCAPE_] key, return to NORMAL mode from any mode
+  | |_
+  |
+  |[+] COMMAND
+  | |
+  | |[+] to perform normal editor's Menu Based operations in VIM
+  | |
+  | |[+] when in [_NORMAL_MODE_], press ':' and give the Command Option
+  | |_
+  |
+  |[+] INSERT
+  | |
+  | |[+] start free-roam using _ARROW_ Keys through text and update it
+  | |
+  | |[+] when in [_NORMAL_MODE_]
+  | | | 
+  | | |[+] press 'i', to Insert at current cursor location
+  | | |[+] press 'I', to Insert at first location of location
+  | | |_
+  | |_
+  |
+  |[+] VISUAL
+  | |
+  | |[+] navigate and select the text visually, like click-n-drag effect
+  | |
+  | |[+] when in [_NORMAL_MODE_]
+  | | | 
+  | | |[+] press 'v', Visual at current cursor location
+  | | |[+] press 'V', Visual with selection of current line
+  | | |_
+  | |_
+  |
+  |[+] REPLACE
+  | |
+  | |[+] (multiple) character replace without using RegEx substitution
+  | |
+  | |[+] when in _NORMAL_MODE_
+  | | | 
+  | | |[+] press 'r', to Replace character at current cursor
+  | | |[+] press 'R', to Replace characters at multiple locations
+  | | |_
+  | |_
+  |_
+
+ [+] while starting VIM
+  |
+  |[+] starting non-compatible mode with 'vi', crunching full power
+  | |
+  | |[+] $ vim -N _FILE_NAME_
+  | |_
+  |_
+
+ [+] when inside VIM
+  |
+  |[+] press _ESCAPE_ key before using the following choices
+  |
+  |[+] Quit VIM [_COMMAND_MODE_]
+  | |
+  | |[+] ':q' ~ clean quit, if no changes made after opening file
+  | |[+] ':q!' ~ override quit, if discarding the changes made
+  | |[+] ':wq' ~ persistent quit, saving the changes made & quit
+  | |[+] ':wq _FILE_NAME_' ~ create-n-quit, if a new file
+  | |[+] ':wq!' ~ override-and-overwrite a READ-ONLY file
+  | |[+] ':wq !sudo tee %' ~ root-overwrite-and-quit
+  | |_
+  |
+  |[+] Text Surfing [_NORMAL_MODE_]
+  | |
+  | |[+] 'h' : move to Left Character in same line
+  | |[+] 'j' : move to Line Above
+  | |[+] 'k' : move to Line Below
+  | |[+] 'l' : move to Right Character in same line
+  | |_
+  |
+  |[+] Get Help
+  | |
+  | |[+] in [_COMMAND_MODE_]; :h _SEARCH_TERM_
+  | |[+] at shell; $ man vim
+  | |[+] at shell; $ vimtutor
+  | |_
+  |_
+
+============================================================================
+
