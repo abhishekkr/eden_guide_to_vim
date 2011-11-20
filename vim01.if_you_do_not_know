@@ -1,0 +1,44 @@
+
+============================================================================
+ Chapter 01:
+ If You Don't Know
+============================================================================
+
+ [+] it's called "Vi IMproved", a programmer's text-editor
+
+ [+] in 1991 Bram Moolenaar improved over 'vi' editor from 1976 by Bill Joy
+
+ [+] 'eclim', a new avatar trying to embed Eclipse's power in VIM
+
+ [+] is one of the most 'powerful' & 'performant' editor
+
+ [+] highly extensible via plug-ins, could make it work your way
+
+ [+] if you don't already have it on your machine, way you desire
+  |
+  |[+] Get it on your Box
+  | |
+  | |[+] Linux: install 'vim' using your package-manager (yum, apt-get, or so)
+  | |[+] Win: could get it using CygWin (or MSysGit), or even install GVim 
+  | |[+] Mac: present in form of 'MacVim'
+  | |[+] its all OS versions can be downloaded from "http://www.vim.org"
+  | |_
+  |
+  |[+] Improvise/Update it
+  | |
+  | |[+] could download the latest Source of VIM and compile on your box with 
+  | | | the desired features as they might not be on in default install
+  | | |_
+  | |
+  | |[+] you can configure it for major set of chosen features and even
+  | | | support for different languages in it for creating plug-ins for it
+  | | |_
+  | |
+  | |[+] as "./configure --with-features=huge --enable-rubyinterp"
+  | | | to enable its support for Ruby written VIM plug-ins.
+  | | |_
+  | |_
+  |_
+
+============================================================================
+
