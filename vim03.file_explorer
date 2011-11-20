@@ -1,0 +1,96 @@
+
+============================================================================
+ Chapter 03:
+ File Explorer 
+============================================================================
+
+ [+] open the file directly from shell, by giving it as a parameter to vim
+  |
+  |[+] ::Syntax:: $ vim FILE_PATH
+  |
+ [+] you have 'vim' opened and are already in 'command_mode'
+  |
+  |[+] ::Syntax:: _COMMAND_$ :e FILE_PATH
+  |
+  |[+] if vim don't have any file opened, it opens the desired file
+  | | or creates a blank one if it doesn't already exists
+  | |_
+  |
+  |[+] if you have a file already opened (with changes saved), it closes
+  | | the current file and opens the desired file... if opened file has 
+  | | non-saved changes, it gives an error about loosing the changes
+  | |_
+  |
+ [+] Browse and open a file, from an explorer view
+  |
+  |[+] ::Syntax:: _COMMAND_$ :Ex 
+  |
+  |[+] This opens up a DIR Listing, with ability to browse through
+  | | child directories, and going back to parent directory.
+  | |_
+  |
+  |[+] If a file is already opened, it splits up the VIM pane and opens
+  | | the DIR explorer in the empty panel.
+  | |_
+  |
+  |[+] Action keys for using options in Dir Listing
+  | |
+  | |[+] 'i' : to cycle through 4 types of available dir-listings
+  | | |
+  | | |[+] 'thin' : names of items in current dir with vertical listing
+  | | |[+] 'long' : same as 'thin' with detailed information per item
+  | | |[+] 'wide' : items listed in wide (horizontal) mode
+  | | |[+] 'tree' : listing of item in ascii-tree format to browse
+  | | |_
+  | |
+  | |[+] 's'
+  | | |
+  | | |
+  | | |_
+  | |
+  | |[+] 'r'
+  | | |
+  | | |
+  | | |_
+  | |
+  | |[+] 'gh'
+  | | |
+  | | |
+  | | |_
+  | |
+  | |[+] 'x'
+  | | |
+  | | |
+  | | |_
+  | |
+  | |[+] 'd'
+  | | |
+  | | |
+  | | |_
+  | |
+  | |[+] 'D'
+  | | |
+  | | |
+  | | |_
+  | |
+  | |[+] 'R'
+  | | |
+  | | |
+  | | |_
+  | |
+  | |[+] '-'
+  | | |
+  | | |
+  | | |_
+  | |
+  | |[+] '[ENTER_KEY]'
+  | | |
+  | | |
+  | | |_
+  | |_
+  |
+ [+] Using plug-ins
+  |_
+
+============================================================================
+
