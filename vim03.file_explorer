@@ -37,56 +37,29 @@
   | |
   | |[+] 'i' : to cycle through 4 types of available dir-listings
   | | |
-  | | |[+] 'thin' : names of items in current dir with vertical listing
-  | | |[+] 'long' : same as 'thin' with detailed information per item
-  | | |[+] 'wide' : items listed in wide (horizontal) mode
-  | | |[+] 'tree' : listing of item in ascii-tree format to browse
+  | | |[+] <default> thin : items in current dir with vertical listing
+  | | |[+] <2nd> long : as 'thin' with detailed information per item
+  | | |[+] <3rd> wide : items listed in wide (horizontal) mode
+  | | |[+] <4th> tree : listing of item in ascii-tree format to browse
   | | |_
   | |
-  | |[+] 's'
-  | | |
-  | | |
-  | | |_
+  | |[+] 's' : cycle through sort by listing by name, time and size
   | |
-  | |[+] 'r'
-  | | |
-  | | |
-  | | |_
+  | |[+] 'r' : reverse the sorting current order
   | |
-  | |[+] 'gh'
-  | | |
-  | | |
-  | | |_
+  | |[+] 'gh' : hide/un-hide the hidden files
   | |
-  | |[+] 'x'
-  | | |
-  | | |
-  | | |_
+  | |[+] 'x' : execute the file with associated program/application
   | |
-  | |[+] 'd'
-  | | |
-  | | |
-  | | |_
+  | |[+] 'd' : create a new directory
   | |
-  | |[+] 'D'
-  | | |
-  | | |
-  | | |_
+  | |[+] 'D' : delete the selected file/directory
   | |
-  | |[+] 'R'
-  | | |
-  | | |
-  | | |_
+  | |[+] 'R' : rename the selected file, edit name & press _ENTER_
   | |
-  | |[+] '-'
-  | | |
-  | | |
-  | | |_
+  | |[+] '-' : move to current Parent Directory
   | |
-  | |[+] '[ENTER_KEY]'
-  | | |
-  | | |
-  | | |_
+  | |[+] '[ENTER_KEY]' : open the file in VIM editor, enter dir
   | |_
   |
  [+] Using plug-ins
