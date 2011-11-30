@@ -6,16 +6,107 @@
 
   [+] Editing Walkthrough
    |
-   |[+] <ESC i|I>, <ESC a>, <ESC o>
-   |[+] <ESC r|R>
-   |[+] RegEx substitute
-   |[+] yank(yy)|del(del,x,dd)|paste(p|P)
+   |[+] Ways to start Editing opened file (when in Normal <_ESC_> Mode) 
+   | |
+   | |[+] Insert Text 
+   | | |
+   | | |[+] press 'i' : enter into Insert Mode at current cursor location
+   | | |
+   | | |[+] press 'I' : enter into Insert Mode at initiation of line
+   | | |_
+   | |
+   | |[+] Append Text
+   | | |
+   | | |[+] press 'a' : enter into Insert Mode at the next cursor location
+   | | |
+   | | |[+] press 'A' : enter into Insert Mode at the end of current line
+   | | |_
+   | |
+   | |[+] Add empty line and Insert
+   | | |
+   | | |[+] press 'o' : add an empty line below current into Insert Mode
+   | | |
+   | | |[+] press 'O' : add an empty line above current into Insert Mode
+   | | |_
+   | |
+   | |[+] Replace existing text
+   | | |
+   | | |[+] press 'r' : to replace the character at current cursor location
+   | | |
+   | | |[+] press 'R' : moving to multiple locations to change characters
+   | | |_
+   | |_
+   |
+   |[+] RegEx substitute (when in Command <_ESC_> Mode)
+   | |
+   | |[+] :%s/<_FIND_PATTERN_>/<_REPLACE_TEXT_>/g
+   | | |
+   | | |_
+   | |
+   | |[+] :%s/<_FIND_PATTERN_>/<_REPLACE_TEXT_>/g
+   | | |
+   | | |_
+   | |_
+   |
+   |[+] Copy, Cut/Delete, Paste
+   | |
+   | |[+] Yank (copy it)
+   | | |
+   | | |[+] press 'yy' : to simply copy the current line to buffer
+   | | |
+   | | |[+] press _NUM_+'yy' : copy _NUM_ lines from current line below
+   | | |_
+   | |
+   | |[+] Delete (del|x|dd)
+   | | |
+   | | |[+] press _DEL_ or 'x' key :
+   | | |
+   | | |[+] press _NUM_+'x' key :
+   | | |
+   | | |[+] press 'dd' :
+   | | |
+   | | |[+] press _NUM_+'dd' :
+   | | |_
+   | |
+   | |[+] Paste (p|P)
+   | | |
+   | | |[+] press 'p' : 
+   | | |
+   | | |[+] press _NUM_+'p' : 
+   | | |
+   | | |[+] press 'P' : 
+   | | |
+   | | |[+] press _NUM_+'P' : 
+   | | |_
+   | |_
+   |
    |[+] d motion(w,e,$),
+   | |
+   | |[+]
+   | |
+   | |[+]
+   | |_
+   |
    |[+] cw
-   |[+] u|CTRL+R
+   | |
+   | |[+]
+   | |
+   | |[+]
+   | |_
+   |
+   |[+] Undo/Redo
+   | |
+   | |[+]
+   | |
+   | |[+]
+   | |_
+   |
    |[+] '.' DOT
-   |[+]
-   |[+]
+   | |
+   | |[+]
+   | |
+   | |[+]
+   | |_
    |_
 
 ============================================================================
