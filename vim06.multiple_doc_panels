@@ -6,9 +6,31 @@
 
   [+] Using multiple panels in same VIM
    |
-   |[+] :split, :vsplit, :vnew, :new
-   |[+] CTRL+w, arrow keys
-   |[+]
+   |[+] Splitting Workspace (from _NORMAL_MODE_, press <_ESC_>)
+   | |
+   | |[+] Open existing file
+   | | |
+   | | |[+] :split <_FILE_TO_OPEN_>
+   | | |[+] :vsplit <_FILE_TO_OPEN_>
+   | | |_
+   | |
+   | |[+] Open new/existing file
+   | | |
+   | | |[+] :vnew <_FILE_TO_OPEN_>
+   | | |[+] :new <_FILE_TO_OPEN_>
+   | | |_
+   | |_
+   |
+   |[+] Moving between Panes 
+   | |
+   | |[+] Press CTRL+w, and then you are in Pane-Jumping Mode
+   | |
+   | |[+] '(^/v) Up/Down Arrow Key' moving among vertically split panes
+   | |[+] '(</>) Left/Right Arrow Key' jump between horizontal panes
+   | |
+   | |[+] 'j|k Key' moving among vertically split panes for up|down
+   | |[+] 'h|l Key' jump between horizontal panes for left|right
+   | |_
    |_
 
 ============================================================================

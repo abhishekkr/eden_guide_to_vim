@@ -12,12 +12,18 @@
    | |
    | |[+] old mention, 'h' => left, 'j' => up, 'k' => down, 'l' => right
    | |
-   | |[+] 'gg' or 'H' => takes you to first position of document
+   | |[+] 'gg' => takes you to first position of document
    | |
    | |[+] 'G' => takes you to last position of the document
+   | |
+   | |[+] 'H' => move to top,left of file in visual workspace 
+   | |
+   | |[+] '""' 2 DoubleQuote => toggle to start/end position of document
    | |_
    |
    |[+] move ahead/back through words
+   | |
+   | |[+] '0' ~ moving to beginning of a line
    | |
    | |[+] 'w' ~ move to beginning of next available word
    | |[+] 'W' ~ move to beginning of next available meaningful word
@@ -29,13 +35,35 @@
    | |[+] 'E' ~ move to last character of next meaningful word
    | |_
    |
-  [+] find & locate the text
+   |[+] advanced text navigation
+   | |
+   | |[+] Move vertically through code/related-text blocks
+   | | |
+   | | |[+] ')' ~ move to previous initiation/end of block
+   | | |[+] '(' ~ move to next initiation/end of any block
+   | | |
+   | | |[+] '{{' ~ move to previous initiation of every block
+   | | |[+] '}}' ~ move to next initiation of every block
+   | | |
+   | | |[+] '[[' ~ move to initiation of text block
+   | | |[+] ']]' ~ move to end of the text block
+   | | |_
+   | |
+   | |[+] Put a bookmark, move back
+   | | |
+   | | |[+]  
+   | | |[+] 
+   | | |_
+   | |_
    |
-   |[+] '/_SEARCH_TERM_' ~ move to next occurence of search term
-   |
-   |[+] 'n' move to Next Occurence, 'N' to previous occurence
-   |
-   |[+] '<NUMBER>n|N' to count ahead or back like 2n to second occurence
+   |[+] find & locate the text
+   | |
+   | |[+] '/_SEARCH_TERM_' ~ move to next occurence of search term
+   | |
+   | |[+] 'n' move to Next Occurence, 'N' to previous occurence
+   | |
+   | |[+] '<NUMBER>n|N' to count ahead or back, eg. 2n to second occurence
+   | |_
    |_
 
 ============================================================================

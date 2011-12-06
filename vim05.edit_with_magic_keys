@@ -6,42 +6,55 @@
 
   [+] Editing Walkthrough
    |
+   |[+] Here, _VISUAL_MODE_ might come in handy to select text for 
+   | | performing editing (yank/cut/indent) on the selected text-block.
+   | |
+   | |[+] ways to go into _VISUAL_MODE_ (when in _NORMAL_MODE_ <_ESC_>) 
+   | | |
+   | | |[+] press 'v' : to change into _VISUAL_MODE_
+   | | |[+] press _NUM_ + 'v' : to change into _VISUAL_MODE_ and select the
+   | | | | lines below equal to _NUM_ times the last count of selected lines
+   | | | |_
+   | | |
+   | | |[+] press 'V' : into _VISUAL_MODE_ and select current line
+   | | |[+] press _NUM_ + 'V' : into _VISUAL_MODE_ and select lines below 
+   | | | | equal to _NUM_ times the last selected count, move cursor below
+   | | | |_
+   | | |_
+   | |
+   | |[+] Once into _VISUAL_MODE_, navigate through Text to select from 
+   | | | current location to position, where Editing Action gets taken.
+   | | |_
+   | |_
+   |
    |[+] Ways to start Editing opened file (when in Normal <_ESC_> Mode) 
    | |
    | |[+] Insert Text 
    | | |
    | | |[+] press 'i' : enter into Insert Mode at current cursor location
-   | | |
    | | |[+] press 'I' : enter into Insert Mode at initiation of line
    | | |_
    | |
    | |[+] Append Text
    | | |
    | | |[+] press 'a' : enter into Insert Mode at the next cursor location
-   | | |
    | | |[+] press 'A' : enter into Insert Mode at the end of current line
    | | |_
    | |
    | |[+] Add empty line and Insert
    | | |
    | | |[+] press 'o' : add an empty line below current into Insert Mode
-   | | |
    | | |[+] press 'O' : add an empty line above current into Insert Mode
    | | |_
    | |
    | |[+] Replace existing text
    | | |
    | | |[+] press 'r' : to replace the character at current cursor location
-   | | |
    | | |[+] press 'R' : moving to multiple locations to change characters
    | | |_
    | |_
    |
    |[+] RegEx substitute (when in Command <_ESC_> Mode)
-   | |
-   | |[+] :%s/<_FIND_PATTERN_>/<_REPLACE_TEXT_>/g
-   | | |
-   | | |_
    | |
    | |[+] :%s/<_FIND_PATTERN_>/<_REPLACE_TEXT_>/g
    | | |
@@ -59,47 +72,63 @@
    | |
    | |[+] Delete (del|x|dd)
    | | |
-   | | |[+] press _DEL_ or 'x' key :
+   | | |[+] press _DEL_ or 'x' key : cuts the char next to current
    | | |
-   | | |[+] press _NUM_+'x' key :
+   | | |[+] press _NUM_+'x' key : cuts _NUM_ chars from next to current
    | | |
-   | | |[+] press 'dd' :
+   | | |[+] press 'dd' : cuts current line
    | | |
-   | | |[+] press _NUM_+'dd' :
+   | | |[+] press _NUM_+'dd' : cuts _NUM_ lines below including current
+   | | |
+   | | |[+] press 'D' : cuts the current line and feeds in a blank line
+   | | |
+   | | |[+] press _NUM_+'D' : cuts _NUM_ lines, feeds single blank line
    | | |_
    | |
    | |[+] Paste (p|P)
    | | |
-   | | |[+] press 'p' : 
+   | | |[+] press 'p' : pastes buffer content after current location 
    | | |
-   | | |[+] press _NUM_+'p' : 
+   | | |[+] press _NUM_+'p' : paste _NUM_ times after current location
    | | |
-   | | |[+] press 'P' : 
+   | | |[+] press 'P' : pastes at current location
    | | |
-   | | |[+] press _NUM_+'P' : 
+   | | |[+] press _NUM_+'P' : pastes _NUM_ times at current location 
    | | |_
    | |_
    |
-   |[+] d motion(w,e,$),
+   |[+] Copy & Cut & Change in motion(w,e,$)
    | |
-   | |[+]
+   | |[+] Yank (copy it, 'y') OR Cut (delete it, 'd')
+   | | |
+   | | |[+] press 'y|d','w' : word/block from current upto next space
+   | | |
+   | | |[+] press 'y|d','e' : word/block from current to last character
+   | | |
+   | | |[+] press 'y|d','$' : from current location to the end of line
+   | | |_
    | |
-   | |[+]
+   | |[+] Change (delete & ready to insert, 'c')
+   | | |
+   | | |[+] press 'c','w|e' : word/block from current upto next space
+   | | |
+   | | |[+] press 'c','$' : delete current to end, ready to insert
+   | | |_
    | |_
    |
-   |[+] cw
+   |[+] Indent Text
    | |
-   | |[+]
+   | |[+] press '>>' : Shifts initial point of line one tab right
+   | |[+] press '<<' : Shifts initial point of line one tab left
    | |
-   | |[+]
+   | |[+] select _VISUAL_MODE_
+   | | |
+   | | |[+] press '>' : Shifts selected block to one tab right
+   | | |[+] press '<' : Shifts selected block to one tab left
+   | | |_
    | |_
    |
-   |[+] Undo/Redo
-   | |
-   | |[+]
-   | |
-   | |[+]
-   | |_
+   |[+] Undo/Redo: press 'u' to Undo, and 'CTRL+R' to Redo
    |
    |[+] '.' DOT
    | |
